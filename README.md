@@ -139,3 +139,5 @@ without this then the render will complain that electronAPI is not on the window
 
 Take note that the first string paramater of contextBridge.exposeInMainWorld will be what the window object will be. so if we passed in "fooBar" as 
 the first paramater of that method then we would need to make this interface say fooBar instead of electronAPI.
+
+All in all I would say that the handle method is probably the most useful; however, it will depend on the use case to dtermine which mehtod to use.
